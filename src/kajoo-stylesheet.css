@@ -1,8 +1,10 @@
 :root {
   --size-large: 144px;
   --size-small: 48px;
+  --color-black: #1c1c1cff;
   --radius-full: 9999px;
   --radius-none: 0px;
+  --size-custom: 200px;
   --size-medium: 96px;
   --radius-large: 8px;
   --radius-small: 4px;
@@ -21,4 +23,14 @@
   --spacing-four-units: 64px;
   --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
+}
+.header-h1 {
+  color: #0C0C0C;
+  height: fit-content;
+  font-size: 60px;
+  min-width: 100px;
+  text-align: left;
+  font-family: Titillium Web;
+  font-weight: bold;
+  line-height: 120%;
 }

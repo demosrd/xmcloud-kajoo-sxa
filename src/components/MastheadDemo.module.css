@@ -1,0 +1,142 @@
+.root {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+.container,.container1 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container1 {
+  position: relative;
+}
+.image {
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  width: 1440px;
+  bottom: unset !important;
+  height: 405px;
+  align-self: stretch;
+}
+.image1 {
+  top: 329.9994812011719px;
+  left: 1267px;
+  width: 133px;
+  height: 193px;
+  z-index: 1;
+  position: absolute;
+}
+.container2 {
+  gap: 16px;
+  padding: 24px 120px 0;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.container2,.container3 {
+  display: flex;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.container3 {
+  gap: 20px;
+  padding: 40px 120px;
+  align-items: center;
+}
+.container4 {
+  gap: 20px;
+  width: 590px;
+  display: flex;
+  padding: 0 20px 0 0;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  color: rgba(0, 0, 0, 1);
+  font-size: 56px;
+  font-style: Light;
+  font-family: "Verdana";
+  font-weight: 300;
+  text-decoration: none;
+}
+.text,.text1 {
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+}
+.text1 {
+  color: rgba(43, 43, 43, 1);
+  font-size: 28px;
+  font-style: normal;
+  font-family: "Tiempos Headline";
+  font-weight: 300px;
+}
+.container5 {
+  gap: 24px;
+  width: 590px;
+  display: flex;
+  padding: 0 60px 0 0;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.richtext {
+  color: rgba(43, 43, 43, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-family: "Arial";
+  font-weight: 400px;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+}
+.container6 {
+  gap: 16px;
+  flex-wrap: wrap;
+  align-self: stretch;
+}
+.container6,.button {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.button {
+  gap: 2px;
+  height: 44px;
+  padding: 16px 20px;
+  border-radius: 100px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 1);
+}
+.link {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+@media(max-width: 1024px) {
+  .container,.container3 {
+    top: unset !important;
+    left: unset !important;
+    right: unset !important;
+    bottom: unset !important;
+  }
+  .container3 {
+    width: 100%;
+  }
+}

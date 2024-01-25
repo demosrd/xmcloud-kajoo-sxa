@@ -1,0 +1,24 @@
+:root {
+  --size-large: 144px;
+  --size-small: 48px;
+  --radius-full: 9999px;
+  --radius-none: 0px;
+  --size-medium: 96px;
+  --radius-large: 8px;
+  --radius-small: 4px;
+  --size-x-large: 192px;
+  --size-x-small: 8px;
+  --spacing-unit: 16px;
+  --radius-medium: 6px;
+  --size-xx-large: 288px;
+  --radius-x-large: 12px;
+  --radius-x-small: 2px;
+  --size-max-width: 1440px;
+  --spacing-half-unit: 8px;
+  --spacing-six-units: 96px;
+  --spacing-two-units: 32px;
+  --spacing-five-units: 80px;
+  --spacing-four-units: 64px;
+  --spacing-three-units: 48px;
+  --spacing-one-and-half-units: 24px;
+}

@@ -4,9 +4,9 @@
   "version": "21.5.3",
   "private": true,
   "config": {
-    "appName": "sitecore-jss-app",
+    "appName": "KajooPOC",
     "rootPlaceholders": [
-      "jss-main"
+      "headless-main"
     ],
     "sitecoreConfigPath": "/App_Config/Include/zzz",
     "graphQLEndpointPath": "/sitecore/api/graph/edge",

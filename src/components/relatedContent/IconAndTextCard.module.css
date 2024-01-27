@@ -1,0 +1,127 @@
+.root {
+    gap: 16px;
+    width: auto;
+    display: flex;
+    padding: 24px 20px;
+    flex-grow: unset;
+    align-self: flex-start;
+    flex-basis: calc((100% / 3) - (40px / 3));
+    align-items: flex-start;
+    flex-shrink: unset;
+    border-radius: 16px;
+    flex-direction: column;
+    background-color: rgba(231, 244, 249, 1);
+  }
+  .root,.image {
+    top: unset !important;
+    left: unset !important;
+    right: unset !important;
+    bottom: unset !important;
+  }
+  .image {
+    width: 72px;
+    height: 72px;
+  }
+  .container {
+    gap: 8px;
+    display: flex;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .text {
+    color: rgba(0, 0, 0, 1);
+    font-size: 21px;
+    font-family: Tiempos Headline;
+    font-weight: 300px;
+  }
+  .text,.richtext {
+    height: auto;
+    align-self: stretch;
+    font-style: normal;
+    text-align: left;
+    line-height: 139.9999976158142%;
+    font-stretch: normal;
+  }
+  .richtext {
+    color: rgba(43, 43, 43, 1);
+    font-size: 16px;
+    font-family: Libre Franklin;
+    font-weight: 400px;
+  }
+  .container1 {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .link {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    font-family: Libre Franklin;
+    font-weight: 700px;
+    line-height: 139.9999976158142%;
+    font-stretch: normal;
+  }
+  .container2 {
+    gap: 10px;
+    display: flex;
+    padding: 2px 0 0;
+    align-items: center;
+  }
+  .image1 {
+    width: 7px;
+    height: 12px;
+  }
+  @media(max-width: 1919px) {
+    .root {
+      gap: 16px;
+      width: auto;
+      padding: 24px 20px;
+      flex-grow: unset;
+      align-self: flex-start;
+      flex-basis: calc((100% / 3) - (40px / 3));
+      flex-shrink: unset;
+      border-radius: 16px;
+      background-color: rgba(231, 244, 249, 1);
+    }
+    .root,.image {
+      top: unset !important;
+      left: unset !important;
+      right: unset !important;
+      bottom: unset !important;
+    }
+    .image {
+      width: 72px;
+      height: 72px;
+    }
+  }
+  @media(max-width: 1673px) {
+    .image {
+      top: unset !important;
+      left: unset !important;
+      right: unset !important;
+      width: 72px;
+      bottom: unset !important;
+      height: 72px;
+    }
+  }
+  @media(max-width: 1600px) {
+    .image {
+      width: 72px;
+      height: 72px;
+    }
+  }
+  @media(max-width: 991px) {
+    .root {
+      flex-basis: calc((100% / 2) - (20px / 2));
+    }
+  }
+  @media(max-width: 779px) {
+    .root {
+      flex-basis: 100%;
+    }
+  }
+  

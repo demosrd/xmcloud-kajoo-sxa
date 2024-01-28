@@ -32,9 +32,9 @@ const IconAndTextCard = (props) => {
           className={` ${styles['richtext']} ${'paragraph-card-copy'} `}
         />
       </Container>
-      {props.fields.link && <Container className={styles['container1']}>
+      {props.fields.link && props.fields.link.value.href  && <Container className={styles['container1']}>
         <Link
-          href={props.fields.link}
+          href={props.fields.link }
           target="_blank"
           rel="noreferrer noopener"
           text="Optional Link"

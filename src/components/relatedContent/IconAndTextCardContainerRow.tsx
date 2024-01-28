@@ -21,9 +21,10 @@ const IconAndTextCardContainerRow = (props) => {
           value={props.fields.copy}
           className={` ${styles['richtext']} ${'richtext-module-copy-rtf'} `}
         />
+      </Container>
+      <Container tag="div" className={styles['container1']} >
         <Placeholder name="cards" rendering={props.rendering} />
       </Container>
-      <Container tag="div" className={styles['container1']} />
     </Container>
   )
 }

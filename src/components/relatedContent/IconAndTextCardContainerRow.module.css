@@ -1,6 +1,14 @@
 .root {
-  width: auto;
+  gap: 40px;
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  width: 100%;
+  bottom: unset !important;
+  max-width: 1440px;
   align-items: center;
+  margin-block: 80px;
+  margin-inline: auto;
 }
 .root,.container {
   display: flex;
@@ -13,7 +21,11 @@
   align-items: flex-start;
 }
 .text {
+  top: unset !important;
+  left: unset !important;
   color: rgba(0, 0, 0, 1);
+  right: unset !important;
+  bottom: unset !important;
   font-size: 42px;
   font-family: Tiempos Headline;
   font-weight: 300px;
@@ -35,6 +47,10 @@
 }
 .container1 {
   gap: 20px;
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  bottom: unset !important;
   display: flex;
   align-self: stretch;
   align-items: flex-start;

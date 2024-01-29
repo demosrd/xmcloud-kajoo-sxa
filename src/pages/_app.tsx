@@ -3,7 +3,7 @@ import { I18nProvider } from 'next-localization';
 import { SitecorePageProps } from 'lib/page-props';
 
 import 'assets/main.scss';
-import "../kajoo-stylesheet.css";
+import '../kajoo-stylesheet.css';
 
 function App({ Component, pageProps }: AppProps<SitecorePageProps>): JSX.Element {
   const { dictionary, ...rest } = pageProps;

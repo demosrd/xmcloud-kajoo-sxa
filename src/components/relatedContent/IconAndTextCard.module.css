@@ -12,14 +12,12 @@
   flex-direction: column;
   background-color: rgba(231, 244, 249, 1);
 }
-.root,.image {
+.image {
   top: unset !important;
   left: unset !important;
   right: unset !important;
-  bottom: unset !important;
-}
-.image {
   width: 72px;
+  bottom: unset !important;
   height: 72px;
 }
 .container {

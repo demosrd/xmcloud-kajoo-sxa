@@ -42,7 +42,7 @@
   color: rgba(43, 43, 43, 1);
   font-size: 18px;
   font-family: Libre Franklin;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 139.9999976158142%;
 }
 .container1 {
@@ -52,9 +52,10 @@
   right: unset !important;
   bottom: unset !important;
   display: flex;
+  flex-wrap: wrap;
   align-self: stretch;
   align-items: flex-start;
-  flex-direction: column;
+  flex-direction: row;
 }
 @media(max-width: 1919px) {
   .root {

@@ -23,7 +23,7 @@ const IconAndTextCardContainerRow = (props) => {
         />
       </Container>
       <Container className={styles['container1']} />
-      <Placeholder name="cards" rendering={props.rendering} />
+      <Placeholder name="Placeholder" rendering />
     </Container>
   )
 }

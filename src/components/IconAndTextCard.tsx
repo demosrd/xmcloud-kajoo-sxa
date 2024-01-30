@@ -31,6 +31,7 @@ const IconAndTextCard = (props) => {
           className={` ${styles['richtext']} ${'paragraph-card-copy'} `}
         />
       </Container>
+      {props.fields.link && props.fields.link.value.href  && 
       <Container className={styles['container1']}>
         <Link
           href={props.fields.link}
@@ -46,7 +47,7 @@ const IconAndTextCard = (props) => {
             className={styles['image1']}
           />
         </Container>
-      </Container>
+      </Container> }
     </Container>
   )
 }
